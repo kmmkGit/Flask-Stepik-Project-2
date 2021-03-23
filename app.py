@@ -41,4 +41,5 @@ def render_not_found(error):
                            departures=data.departures, error=error)
 
 
-app.run()
+if __name__ == '__main__':
+    app.run()
